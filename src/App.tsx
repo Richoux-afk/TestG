@@ -12,7 +12,7 @@ function App() {
   return (
     <ConfigProvider locale={ruRU}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/TestG/" element={<Layout />}>
           <Route index element={<MainPage />} />
           <Route path="editable" element={<EditableTable />} />
           <Route

@@ -24,13 +24,13 @@ const menuItems: MenuItem[] = [
 
 // соответствие пунктов меню маршрутам
 const routeMap: Record<string, string> = {
-  Главная: "/",
-  "Динамика и управление": "/editable",
-  "Качество запасов": "/quality",
-  "Данные по проектам": "/projects",
-  Сценарии: "/scenarios",
-  "Сравнение сценариев": "/compare",
-  Администрирование: "/admin",
+  Главная: "/TestG",
+  "Динамика и управление": "/TestG/editable",
+  "Качество запасов": "/TestG/quality",
+  "Данные по проектам": "/TestG/projects",
+  Сценарии: "/TestG/scenarios",
+  "Сравнение сценариев": "/TestG/compare",
+  Администрирование: "/TestG/admin",
 };
 
 export const SidebarMenu: React.FC = () => {
